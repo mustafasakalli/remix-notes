@@ -8,6 +8,12 @@ export default function NotesPage() {
     );
 }
 
+//This action fucntion is special.This will work on server side
+export function action() {
+    
+
+}
+
 export function links() {
     return [...newNoteLinks()]
 }
